@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-schema="DEMOSEZ" match-name="AUTHOR" />
+	<table-filter match-schema="DEMOSEZ" match-name="USERS" />
+	<table-filter match-schema="DEMOSEZ" match-name="SUBSCRIBER" />
+	<table-filter match-schema="DEMOSEZ" match-name="MESSAGE" />
+	<table-filter match-name="BOOKS" match-schema="DEMOSEZ"></table-filter>
+	<table-filter match-name="AUTHOR_FILES" match-schema="DEMOSEZ"></table-filter>
+	<table-filter match-name="ANIMALS" match-schema="DEMOSEZ"></table-filter>
+	<table-filter match-name="FEEDING_SCHEDULES"
+		match-schema="DEMOSEZ">
+	</table-filter>
+	<table-filter match-name="EZOO_USERS" match-schema="DEMOSEZ"></table-filter>
+	<table-filter match-name="USERS_ROLES" match-schema="DEMOSEZ"></table-filter>
+	<table-filter match-name="EZOO_USERS_ROLES"
+		match-schema="DEMOSEZ">
+	</table-filter>
+	<table-filter match-name="PERSISTENT_LOGINS"
+		match-schema="DEMOSEZ">
+	</table-filter>
+	<table-filter match-name="EVENT" match-schema="DEMOSEZ"></table-filter>
+	<table-filter match-name="EZOO_USERS_EVENT"
+		match-schema="DEMOSEZ">
+	</table-filter>
+	<table-filter match-name="HEALTH_PLAN" match-schema="DEMOSEZ"></table-filter>
+	<table-filter match-name="USERS_ROLES" match-schema="DEMOSEZ"></table-filter>
+	<table-filter match-name="EZOO_USERS_ROLES"
+		match-schema="DEMOSEZ">
+	</table-filter>
+</hibernate-reverse-engineering>
